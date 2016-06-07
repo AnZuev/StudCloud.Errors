@@ -12,7 +12,7 @@ function WsError(code, message){
 	this.get = function(){
 		return {
 			code: this.code,
-			description: thgiis.message,
+			description: this.message,
 			exception: true
 		}
 	};
